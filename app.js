@@ -36,7 +36,6 @@ app.get("/movies", (request, response) => {
     req.end();
 })
 
-
 app.listen(port, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
   });
